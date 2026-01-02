@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DEPI - JavaScript Lab 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Lab 2 Tester</h1>
+
+        <!-- Function 1: Capitalize Words -->
+        <div class="card">
+            <h2>1. Capitalize Words</h2>
+            <input type="text" id="capitalizeInput" placeholder="Enter text">
+            <button onclick="testCapitalize()">Run</button>
+            <p>Result: <span id="capitalizeResult"></span></p>
+        </div>
+
+        <!-- Function 2: Merge Sorted Arrays -->
+        <div class="card">
+            <h2>2. Merge Sorted Arrays</h2>
+            <input type="text" id="mergeArr1" placeholder="Array 1 (comma separated)">
+            <input type="text" id="mergeArr2" placeholder="Array 2 (comma separated)">
+            <button onclick="testMerge()">Run</button>
+            <p>Result: <span id="mergeResult"></span></p>
+        </div>
+
+        <!-- Function 3: Sum of Squares -->
+        <div class="card">
+            <h2>3. Sum of Squares</h2>
+            <input type="text" id="squareInput" placeholder="Enter numbers comma separated">
+            <button onclick="testSquare()">Run</button>
+            <p>Result: <span id="squareResult"></span></p>
+        </div>
+
+        <!-- Function 4: Filter Array -->
+        <div class="card">
+            <h2>4. Filter Array (>2)</h2>
+            <input type="text" id="filterInput" placeholder="Enter numbers comma separated">
+            <button onclick="testFilter()">Run</button>
+            <p>Result: <span id="filterResult"></span></p>
+        </div>
+
+        <!-- Function 5: Map Array (*2) -->
+        <div class="card">
+            <h2>5. Map Array (*2)</h2>
+            <input type="text" id="mapInput" placeholder="Enter numbers comma separated">
+            <button onclick="testMap()">Run</button>
+            <p>Result: <span id="mapResult"></span></p>
+        </div>
+
+        <!-- Function 6: Reduce Array (sum) -->
+        <div class="card">
+            <h2>6. Reduce Array (sum)</h2>
+            <input type="text" id="reduceInput" placeholder="Enter numbers comma separated">
+            <button onclick="testReduce()">Run</button>
+            <p>Result: <span id="reduceResult"></span></p>
+        </div>
+
+        <!-- Function 7: forEach Array (*2 console) -->
+        <div class="card">
+            <h2>7. forEach Array (*2 in console)</h2>
+            <input type="text" id="forEachInput" placeholder="Enter numbers comma separated">
+            <button onclick="testForEach()">Run</button>
+        </div>
+
+        <!-- Function 8: Find Max -->
+        <div class="card">
+            <h2>8. Find Max</h2>
+            <input type="text" id="maxInput" placeholder="Enter numbers comma separated">
+            <button onclick="testMax()">Run</button>
+            <p>Result: <span id="maxResult"></span></p>
+        </div>
+
+        <!-- Function 9: Merge Objects -->
+        <div class="card">
+            <h2>9. Merge Objects</h2>
+            <input type="text" id="obj1Input" placeholder="Object 1 e.g. a:1,b:2">
+            <input type="text" id="obj2Input" placeholder="Object 2 e.g. b:3,c:4">
+            <button onclick="testMergeObj()">Run</button>
+            <p>Result: <span id="mergeObjResult"></span></p>
+        </div>
+
+        <!-- Function 10: Invert Object -->
+        <div class="card">
+            <h2>10. Invert Object</h2>
+            <input type="text" id="invertInput" placeholder="Object e.g. a:1,b:2,c:3">
+            <button onclick="testInvertObj()">Run</button>
+            <p>Result: <span id="invertResult"></span></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
